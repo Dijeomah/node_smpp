@@ -1,6 +1,6 @@
-const net = require('net');
-const axios = require('axios'); // For HTTP requests
-const config = require('./../config/config');
+import  net from 'net';
+import axios from 'axios'; // For HTTP requests
+import config from '../config/config.js';
 
 // Connection class to manage state
 class Connection {

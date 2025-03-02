@@ -5,4 +5,5 @@ const config = {
   username: 'Username',
   password: 'password',
 };
-module.exports = config;
+
+export default config;
